@@ -38,7 +38,7 @@ import style from './file.css';
         test: /\.css$/,
         use: [{ loader: 'style-loader' }, { loader: 'css-loader' }],
       },
-    ];
+    ],
   }
 }
 ```
